@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <section>
+        <table>
+            <tr>
+                <td><img src="img/grano.gif" alt="grano_de_cafe"></td>
+                <th><h1>Contacto</h1></th>
+            </tr>
+        </table>
+        <hr>
+        <p>Si deseas ponerte en contacto con nosotros rellena este formulario y te contestaremos con la mayor brevedad posible</p>
+        <br>
+    </section>
+    <form>
+        <p class="obligatorio">
+            <label for="nombre">Nombre*: </label>
+            <input type="text" id="nombre" maxlength="18" required autofocus>
+        </p>
+        <p>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" id="apellidos" maxlength="18">
+        </p>
+        <p class="obligatorio">
+            <label for="correo">Correo Electrónico*: </label>
+            <input type="text" id="correo" maxlength="64" pattern="[A-Za-z0-9._]+@[A-Za-z]+\.[A-Za-z]" required title="Formato incorrecto, ej: ejemplo@ejemplo.com">
+        </p>
+        <p>
+            ¿Cuantas tazas de café tomas al día?<br>
+            <input type="radio" id="1o2tazas" name="tazas" value="1o2tazas" checked>
+            <label for="1o2tazas">1 o 2 tazas</label>
+            <input type="radio" id="2a5tazas" name="tazas" value="2a5tazas">
+            <label for="2a5tazas">2-5 tazas</label>
+            <input type="radio" id="masDe5tazas" name="tazas" value="masDe5tazas">
+            <label for="masDe5tazas">Mas de 5 tazas</label>
+        </p>
+        <p>
+            ¿Como te gusta preparar el café?<br>
+            <select name="formasPrepaprarCafe" id="formasPrepaprarCafe">
+                <option value="" disabled selected>-- Formas de preparar el café --</option>
+                <option value="cafeExpresa">Café expreso</option>
+                <option value="cafeFiltrado">Café filtrado</option>
+                <option value="cafeTurco">Café turco</option>
+                <option value="cafeAmericano">Café americano</option>
+                <option value="Cappuccino">Cappuccino</option>
+            </select>
+        </p>
+        <p>
+            <label for="cafeMasgustado">¿Qué café te gusta más?</label>
+            <br>
+            <select name="cafeMasgustado" id="cafMasç">
+                <option value="arabica">Arabica</option>
+                <option value="robusta">Robusta</option>
+                <option value="caracolillo">Caracolillo</option>
+            </select>
+        </p>
+        <p>
+            <label for="comoEncontrado">¿Cómo nos has encontrado?</label>
+            <input type="text" list="sugerencias" id="comoEncontrado">
+        </p>
+        <p>
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" min="18" max="99">
+        </p>
+        <p>
+            <label for="colorCafe">¿Qué color de grano de café es tu favorito?</label>
+            <input type="color" id="colorCafe">
+        </p>
+        <p>
+            <label for="puntuacion">¿Te ha gustado esta web?</label>
+            <br>
+            0 <input type="range" id="puntuacion" min="0" max="100"> 100
+        </p>
+        <p class="obligatorio">
+            (Los campos con asterisco (*) son obligatorios)<br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+        <p>
+            <a href="#">subir arriba</a>
+        </p>
+    </form>
+    <datalist id="sugerencias">
+        <option value="anuncio de televisión"></option>
+        <option value="buscadores"></option>
+        <option value="un amigo"></option>
+    </datalist>
+    <p></p>
+</body>
+</html>

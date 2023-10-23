@@ -1,0 +1,23 @@
+body {
+    background-color: #CCCC66;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+header {
+    color: maroon;
+}
+
+header hr{
+    border: 1px solid maroon;
+}
+
+table {
+    border-collapse: collapse; 
+}
+
+table td, table th {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}

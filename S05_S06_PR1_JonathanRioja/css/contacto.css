@@ -1,0 +1,19 @@
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #CCCC66;
+}
+
+form p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form .obligatorio, h1{
+    color: maroon;
+    font-weight: bold;
+}
+
+form input[type="text"]{
+    border: 2px solid maroon;
+}
