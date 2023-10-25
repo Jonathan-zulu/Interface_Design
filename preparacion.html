@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Preparacion</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/preparacion.css">
+    <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 </head>
+
 <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1bn8cQ-9-KM?si=MnipF2Q7a0va7kg2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <br>
-    <video width="640" height="360" controls>
-        <source src="video/coffee_-_44802 (540p).mp4" type="video/mp4">
-        <source src="video/coffee_-_44802 (540p).ogv" type="video/ogv">
-        Tu navegador no soporta el elemento de video.
-    </video>
+    <header>
+        <h1>Preparación</h1>
+    </header>
+    <div class="row">
+        <main>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1bn8cQ-9-KM?si=MnipF2Q7a0va7kg2"
+                    title="YouTube video playeær" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div>
+                <video width="640" height="360" controls>
+                    <source src="video/coffee_-_44802 (540p).mp4" type="video/mp4">
+                    <source src="video/coffee_-_44802 (540p).ogv" type="video/ogv">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+            <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
+                data-link="https://photos.app.goo.gl/Eg9TZdJj3BKRD4zGA" data-title="café"
+                data-description="5 new items added to shared album">
+                <object
+                    data="https://lh3.googleusercontent.com/pw/ADCreHcyGAE9kPg6E-V4GXWneyr0Y4Bh_5mcyz7w6CmvPgcazEly6PiwkxO6J-Yb9ChBZ0ncy0aa6UUNFaE8w1JHo58i6mlTojZfy1963fagyeERtg-4lQ=w1920-h1080"></object>
+                <object
+                    data="https://lh3.googleusercontent.com/pw/ADCreHe9j0YWrK73iWdF5sMxxdtM2tHODcDICD0MofslWE8KgidxdNvRm4u7_9YWc8t8AzIKMfD6L8wZgS1eNQh9eiwDGIu3RrtNvoPcy9Zss_QKZFmaSg=w1920-h1080"></object>
+                <object
+                    data="https://lh3.googleusercontent.com/pw/ADCreHcMNxZXM1-mjbsB6P_DgSHnIY1nBRFaRWN2B00JkA5qV2MAt0JoYhY14euUnYWFNVbls3LRQ1B0jnfVEqLrmAE6kw5SJb6P2fasFOvLpDTAv63rIg=w1920-h1080"></object>
+                <object
+                    data="https://lh3.googleusercontent.com/pw/ADCreHe_5LB2ptJVpNkj7XRfJuWe2jqXuHRWdAW0FW_VVFbVMbXzN3bOZ9ugfSOfsqtaPYT-agsvAojvOWcmtU5pdtEu8RLKklxG79OcFMidZ07RTw15VA=w1920-h1080"></object>
+                <object
+                    data="https://lh3.googleusercontent.com/pw/ADCreHf80--ATsB3yvRccNgwdARginIVMr5vVWOvhcTH2zhyMztIDAGVdbjTklO9MgRJacJx82p06BOxv2EI9u1hDxO8RgvZmr1pMUdU5kmXN8Cf2UAPeg=w1920-h1080"></object>
+            </div>
+            <div>
+                <!--
+                 Widget: Sofascore - https://www.sofascore.com
+                 Fuente: https://www.torontomike.com/2022/08/what-are-the-best-sports-apps-and-widgets-in-2022/
+                 -->
+                <iframe id="sofa-standings-embed-1434-53820"
+                    src="https://widgets.sofascore.com/es-ES/embed/tournament/1434/season/53820/standings/World%20Cup%202026%2C%20Qualification%2C%20CONMEBOL?widgetTitle=World Cup 2026, Qualification, CONMEBOL&showCompetitionLogo=true"
+                    style=height:514px!important;max-width:620px!important;width:100%!important; frameborder="0"
+                    scrolling="no"></iframe>
+                <div style="font-size:12px;font-family:Arial,sans-serif;text-align:left">
+                    Clasificación ofrecida por <a target="_blank" href="https://www.sofascore.com/">Sofascore</a>
+                </div>
+            </div>
+            <div>
+                <!--
+                Widget: Weather widget.io - https://weatherwidget.io
+                Fuente: Primer resultado de buscar "widget weather".
+                -->
+                <a class="weatherwidget-io" href="https://forecast7.com/en/4d71n74d07/bogota/" data-label_1="BOGOTÁ"
+                    data-label_2="WEATHER" data-theme="original">BOGOTÁ WEATHER</a>
+                <script>
+                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+                </script>
+            </div>
+        </main>
+        <aside>
+            <div id="glbd-widget">
+                <div id="glbd-load"
+                    style="width: 300px; background: url(http://globedia.com/img/loading.gif) center no-repeat;"></div>
+                <div id="glbd-link"
+                    style="text-align:right; font-size:10px; font-family:'Trebuchet MS', Arial; margin: auto; width: 300px;">
+                    <a href="http://globedia.com" title="Noticias" target="_blank"
+                        style="color:#999; text-decoration:none;">globedia.com</a></div>
+            </div>
+            <script type="text/javascript" src="http://globedia.com/widgets/widget.js"></script>
+            <script type="text/javascript"
+                src="http://globedia.com/widgets/widget.php?country=CO&category=0&order=votes&cols=1&num=4&width=300&height=false&title=Noticias%20de%20Colombia&author=false&images=false&summaries=true&votes=false"></script>
+            <script type="text/javascript">GlobediaWidget.init();</script>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6772.733206550037!2d-74.05842822316184!3d4.656229695318593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5d31902eeb%3A0x131d4b1896ec9212!2sFederaci%C3%B3n%20Nacional%20de%20Cafeteros%20de%20Colombia!5e1!3m2!1ses!2ses!4v1698210266620!5m2!1ses!2ses"
+                    width="400" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=1b59d0587e8fa6befdc9563e7e32617041d16f5acd3d3a73b7d66f76fb4e7a67%40group.calendar.google.com&ctz=Europe%2FMadrid"
+                    style="border: 0" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </aside>
+    </div>
 </body>
+
 </html>

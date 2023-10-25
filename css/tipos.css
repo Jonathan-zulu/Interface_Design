@@ -1,5 +1,11 @@
 body {
+    margin-top: 20px;
+    margin-left: 20px;
     background-color: #CCCC66;
+}
+
+table .cabecera th{
+    font-size: 36px;
 }
 
 table ul{

@@ -1,3 +1,32 @@
 body{
-    background-color: #CCCC66;
+    background: #CCCC66;
+}
+
+.row{
+    display: flex;
+}
+
+header{
+    background-color: #585803;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+main {
+
+    width: 80%;
+    display: block;
+}
+
+main div, aside div{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+aside{
+    border-left: 2px;
+    border-left-color: white;
+    width: 20%;
+    border-left: 5px solid #585803;
+
 }

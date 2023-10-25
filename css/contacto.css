@@ -4,6 +4,10 @@ body{
     background-color: #CCCC66;
 }
 
+section .cabecera tr th{
+    font-size: 36px;
+}
+
 form p{
     margin-top: 20px;
     margin-bottom: 20px;
